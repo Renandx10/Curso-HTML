@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: none;
+}
+
+.quadrado {
+    border: 2px solid black;
+    display:inline-block;
+     width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+div#q1 {
+    background-color: aqua;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, yellow,orange);
+}
+
+div#q3 {
+    background-image: url(imagens/pattern001.png);
+}
