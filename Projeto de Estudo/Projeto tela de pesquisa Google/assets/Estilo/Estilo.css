@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 12px;
+    
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding-top: 1px;
+
+}
+
+.imagem-cabecalho img {
+    width: 16px;
+}
+
+.imagem-perfil img {
+    width: 33px;
+}
+
+.navegador{
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    padding-right: 38px;
+}
+
+.navegador a {
+    font-size: 0.83rem;
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin:190px;
+}
+
+.logo img {
+    width: 17rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: none;
+    
+}
+
+.botao {
+    display: block;
+    align-items: center;
+    width: 36rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: 1px solid rgb(218, 215, 215);
+    background-color: transparent;
+}
+
+.botao:hover {
+    box-shadow: 1px 1px 10px #00000044;
+}
+
+.botao img {
+    width: 0.8rem;
+    display: block;
+    margin-left: 15px;
+}
+
+.Pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200;
+    background-color: rgba(215, 221, 221, 0.466);
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.Pesquisa h4  {
+    display: flex;
+    font-size: 0.9rem;
+    color: rgb(110, 108, 108);
+    border: 10px;
+    text-decoration: none;
+}
+
+.Pesquisa:hover {
+    box-shadow: 1px 1px 7px #00000044;
+}
+
+.menu-box {
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-top: 130px;
+    padding-left: 30px;
+}
+
+.menu h4 {
+    text-decoration: none;
+    color:rgb(110, 108, 108);
+}
+
+.disponivel {
+    padding-top: 20px;
+    color:rgb(88, 87, 87);
+    text-decoration: none;
+}
+
+.disponivel a {
+    color: rgba(0, 0, 255, 0.644);
+}
