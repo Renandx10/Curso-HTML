@@ -114,8 +114,8 @@
 .lista {
     font-size: 22px;
     color: rgb(24, 23, 23);
-    list-style: inside;
-    list-style-type: lower-roman;
+    list-style-type:circle;
+    list-style-position: inside;
     padding-top: 15px;
 }
 
