@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 25px;
+    margin: 10px;
+}
+
+.logo-cabecalho a {
+    display: flex;
+    padding-left: 15px;
+    color: #D2872C ;
+    font-size: 20px;
+}
+
+.menu-cabecalho {
+    display: flex;
+    gap: 28px;
+    font-size: 23px;
+    color: #766F68;
+}
+
+.menu-cabecalho a {
+    color: #55504c;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+}
+
+.titulo {
+    padding-bottom: 20px;
+}
+
+.conteudo-principal-esquerdo h1{
+    font-size: 60px;
+    color: #766F68;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.conteudo-principal-esquerdo h3 {
+    color: #55504ca4;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 4px;
+}
+
+.botao {
+    padding-top: 40px;
+}
+
+.conteudo-principal-esquerdo a {
+    background-color: #D2872C;
+    padding: 13px 80px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    margin-left:30px;
+    
+}
+
+.conteudo-principal-direito img {
+    height: 400px;
+}
+
+@media screen and (max-width:1258px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1193px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1117px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1087px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1087px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1228px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1188px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1182px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1122px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1098px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1076px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1062px){
+    .conteudo-principal-esquerdo h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1222px) {
+    .conteudo-principal-esquerdo a {
+        padding: 10px 60px;
+    }
+}
+
+@media screen and (max-width: 1136px) {
+    .conteudo-principal-esquerdo a {
+        padding: 10px 70px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .conteudo-principal-esquerdo a {
+        padding: 10px 50px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+    .conteudo-principal-esquerdo a {
+        padding: 10px 40px;
+        margin: 15px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1188px) {
+    .conteudo-principal-direito img {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width:1106px) {
+    .conteudo-principal-direito img {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1084px) {
+    .conteudo-principal-direito img {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .conteudo-principal {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .conteudo-principal-esquerdo h1 {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .conteudo-principal-esquerdo h3 {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 4px;
+        padding-bottom:1px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .conteudo-principal-esquerdo a {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 18px 15px;
+        font-weight: 500;
+    }
+}
+
+
+    
